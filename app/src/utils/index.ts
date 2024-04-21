@@ -1,4 +1,4 @@
-import { tree } from 'aiui';
+import { tree } from 'aixui';
 
 export function getWorkspace(): Promise<tree.TreeNodeModel<any>> {
     return fetch('/api/getWorkspace')
