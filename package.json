@@ -1,6 +1,6 @@
 {
     "name": "aixui",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "A Web IDE UI Framework built with React.js, inspired by VSCode.",
     "module": "./esm/index.js",
     "typings": "./esm/index.d.ts",
@@ -60,7 +60,10 @@
         "yargs": "^17.7.2"
     },
     "dependencies": {
+		"@mantine/core": "7.8.0",
+		"@mantine/hooks": "7.8.0",
         "@dtinsight/dt-utils": "^1.1.2",
+        "@tanstack/react-query": "^5.31.0",
         "@vscode/codicons": "^0.0.33",
         "allotment": "^1.20.0",
         "immer": "^10.0.3",
@@ -77,6 +80,9 @@
         "sonner": "^1.4.0",
         "tapable": "^2.2.1",
         "tsyringe": "^4.8.0",
-        "use-sync-external-store": "^1.2.0"
-    }
+        "use-sync-external-store": "^1.2.0",
+		"postcss": "^8.4.35",
+		"postcss-preset-mantine": "1.14.4",
+		"postcss-simple-vars": "^7.0.1"
+	}
 }
