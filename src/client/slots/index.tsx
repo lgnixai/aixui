@@ -1,6 +1,7 @@
 // eslint-disable-next-line simple-import-sort/exports
 export { default as ActivityBar, type IActivityBarProps } from './activityBar';
 export { default as AuxiliaryBar, type IAuxiliaryBarProps } from './auxiliaryBar';
+export { default as AuxiliaryBarTab, type IAuxiliaryBarTabProps } from './auxiliaryBarTab';
 export { default as ContextMenu, type IContextMenuProps } from './contextMenu';
 export { default as Editor, type IEditorProps } from './editor';
 export { default as EditorTree, type IEditorTreeProps } from './editorTree';

@@ -33,7 +33,6 @@
         "registry": "https://registry.npmjs.org/"
     },
     "devDependencies": {
-        "aiui": "./",
         "@types/lodash-es": "^4.17.8",
         "@types/node": "^20.4.7",
         "@types/react": "^18.2.18",
@@ -41,6 +40,7 @@
         "@types/use-sync-external-store": "^0.0.6",
         "@types/yargs": "^17.0.24",
         "@vitejs/plugin-react": "^4.0.4",
+        "aixui": "./",
         "bumpp": "^9.2.1",
         "chalk": "4.x",
         "chokidar": "^3.5.3",
@@ -62,6 +62,7 @@
     "dependencies": {
         "@dtinsight/dt-utils": "^1.1.2",
         "@vscode/codicons": "^0.0.33",
+        "allotment": "^1.20.0",
         "immer": "^10.0.3",
         "lodash-es": "^4.17.21",
         "monaco-editor": "^0.31.0",

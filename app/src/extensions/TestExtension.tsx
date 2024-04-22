@@ -13,6 +13,14 @@ export const TestExtension: IExtension = {
         },
     },
     activate(molecule: IMoleculeContext) {
+		// molecule.auxiliaryBar.add({
+		// 	id: 'testPane',
+		// 	name: 'testPane',
+		// 	alignment: 'top',
+		// 	sortIndex: 2,
+		// 	icon: 'book',
+		// });
+		// molecule.layout.setAuxiliaryBar(true)
         molecule.activityBar.add({
             id: 'testPane',
             name: 'testPane',

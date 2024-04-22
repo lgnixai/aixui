@@ -11,6 +11,7 @@ export class LayoutModel {
         public groupSplitPos: number[] = [],
         public activityBar: WithHidden<void> = { hidden: false },
         public auxiliaryBar: WithHidden<void> = { hidden: true },
+        public auxiliaryBarTab: WithHidden<void> = { hidden: false },
         public panel: WithHidden<{ panelMaximized: boolean }> = {
             hidden: false,
             panelMaximized: false,

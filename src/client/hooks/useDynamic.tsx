@@ -9,6 +9,7 @@ export default function useDynamic(token: string) {
     const [element, setElement] = useState<React.ReactNode>(null);
 
     function lazyRequire() {
+		console.log(!modules.has(token),token)
         if (!modules.has(token)) return Promise.resolve(null);
         const Comp = modules.get(token);
         if (Comp === null || Comp === undefined) return Promise.resolve(null);
